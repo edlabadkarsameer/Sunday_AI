@@ -85,14 +85,11 @@ if __name__ == "__main__":
                         speak('I am good sir') 
                 elif 'what is your name' in query: 
                         speak('my name is sunday. i am an artificial intelligence. designed and developed by mr sameer')
-                elif 'who is sameer' in query: 
-                        speak('he is god')
                 elif 'how old you are' in query: 
                         speak('infinity years old  haaahahahahahhhaaaaaahhahahahahahahahahahhhhhhahahahahahahahahahahahahahahahahahahahahahahahheheheheheheheheheheeeeeeeehehehehehehehehehehehehehehehehehehheheheheheh')
                 elif 'good morning' in query: 
                         speak('how can in help you')
-                elif 'vaibhavi' in query: 
-                        speak('yes i know vaibhavi danger , she is bhaitad and jhendu !!!!')
+              
                 elif 'what do you think' in query: 
                         speak('sir, i think you should not')
                 elif 'good evening' in query: 
@@ -102,8 +99,6 @@ if __name__ == "__main__":
                 elif 'open whatsapp' in query:
                         speak('opening whatsapp')
                         webbrowser.open("web.whatsapp.com")
-                elif 'who is arya' in query:
-                        speak('ohhh wow , hmmm, she is very smart girl and she is your girlfriend too')
                 elif 'time' in query:
                         strTime = datetime.datetime.now().strftime("%H:%M:%S")
                         speak(f"sir, the time is {strTime}")
@@ -119,7 +114,7 @@ if __name__ == "__main__":
                         codePath = "C:\\Users\\edlab\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
                         os.startfile(codePath)
                 #elif 'send messaege' in query:
-                        #pywhatkit.sendwhatmsg("+918390770497","this is a testing protocol by sunday",1,59)
+                        #pywhatkit.sendwhatmsg("mobile number","this is a testing protocol by sunday",1,59)
                 #elif'play song on youtube' in query:
                         #pywhatkit.playonyt("see you again")
                 elif 'email to sameer' in query:
